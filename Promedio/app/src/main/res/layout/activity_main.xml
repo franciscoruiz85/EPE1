@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.promedio.panxo.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="PROMEDIOS"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/txtEPR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:text="EPR1" />
+
+        <EditText
+            android:id="@+id/etEPR1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtEPR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:text="EPR2" />
+
+        <EditText
+            android:id="@+id/etEPR2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txtEPE1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:text="EPE1" />
+
+        <EditText
+            android:id="@+id/etEPE1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+        <TextView
+            android:id="@+id/txtEPE2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:text="EPE2" />
+
+        <EditText
+            android:id="@+id/etEPE2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/txtEVA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:text="EVA1" />
+        <TextView
+            android:id="@+id/txtEVA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:text="EVA2" />
+        <TextView
+            android:id="@+id/txtEVA3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="35dp"
+            android:text="EVA3" />
+        <TextView
+            android:id="@+id/txtEVA4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            android:text="EVA4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/etEVA1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/etEVA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/etEVA3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/etEVA4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:digits="0123456709"
+            android:hint="10 a 70"
+            android:inputType="numberDecimal"
+            android:maxLength="2"
+            android:singleLine="true"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/calProm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Calcular">
+        </Button>
+        <Button
+            android:id="@+id/calFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Final">
+        </Button>
+    </TableRow>
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/txtParcial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="Promedio Parcial" />
+            <TextView
+                android:id="@+id/txtPromParcial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/txtExamen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="Examen" />
+
+            <EditText
+                android:id="@+id/etExamen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:digits="0123456709"
+                android:enabled="false"
+                android:hint="10 a 70"
+                android:inputType="numberDecimal"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/txtFinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="Promedio Final" />
+            <TextView
+                android:id="@+id/txtPromFinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/datos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Datos">
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
